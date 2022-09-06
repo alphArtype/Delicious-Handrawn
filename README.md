@@ -2,9 +2,9 @@
 
 ![Sample Image](documentation/image1.png)
 
-## About Delcious
+## About Delcious Handrawn
 
-Delicious is a font that was created because it was inspired by my own handwriting that I want to make a font, I started by making all the glyphs on my ipad using the procreate application, the challenge for me when making the font is my own handwriting which is not neat and it makes me have to repeat many times until I find the stroke that fits in my opinion.
+Delicious Handrawn is a font that was created because it was inspired by my own handwriting that I want to make a font, I started by making all the glyphs on my ipad using the procreate application, the challenge for me when making the font is my own handwriting which is not neat and it makes me have to repeat many times until I find the stroke that fits in my opinion.
 
 ## About
 
