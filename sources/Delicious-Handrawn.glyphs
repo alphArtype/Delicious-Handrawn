@@ -19,7 +19,7 @@ value = 1;
 }
 );
 date = "2022-08-31 02:17:19 +0000";
-familyName = "Delicious Handrawn";
+familyName = "Delicious-Handrawn";
 featurePrefixes = (
 {
 automatic = 1;
