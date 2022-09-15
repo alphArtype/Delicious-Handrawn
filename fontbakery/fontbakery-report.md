@@ -13,31 +13,31 @@ Fontbakery version: 0.8.10
 	- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
-	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x01CE (LATIN SMALL LETTER A WITH CARON)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
 	- 0x00AA (FEMININE ORDINAL INDICATOR)
 
 
 	- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+
+	- 0x00BF (INVERTED QUESTION MARK)
+
+
+	- 0x00B7 (MIDDLE DOT)
+
+
+	- 0x2013 (EN DASH)
+
+
+	- 0x2014 (EM DASH)
+
+
+	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
+
+
+	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
  
 
-	- And 11 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
@@ -60,6 +60,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
@@ -75,6 +77,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
 
@@ -109,7 +113,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Eacute (U+00C9): X=165.0,Y=718.0 (should be at cap-height 720?) 
 
-	* And 46 more.
+	* And 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><br></div></details>
