@@ -1,12 +1,6 @@
 {
-.appVersion = "3039";
+.appVersion = "3148";
 .formatVersion = 3;
-axes = (
-{
-name = Weight;
-tag = wght;
-}
-);
 customParameters = (
 {
 name = fsType;
@@ -16,10 +10,14 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 }
 );
 date = "2022-08-31 02:17:19 +0000";
-familyName = "Delicious-Handrawn";
+familyName = "Delicious Handrawn";
 featurePrefixes = (
 {
 automatic = 1;
@@ -35,6 +33,7 @@ languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn MAH;
+languagesystem latn CAT;
 languagesystem latn NLD;
 ";
 name = Languagesystems;
@@ -44,6 +43,8 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature ordn;
+feature case;
 ";
 tag = aalt;
 },
@@ -104,27 +105,68 @@ lookup locl_latn_2 {
 
 lookup locl_latn_3 {
 	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_3;
+
+lookup locl_latn_4 {
+	script latn;
 	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_3;
+} locl_latn_4;
 ";
 tag = locl;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
 }
 );
 fontMaster = (
 {
-axesValues = (
-100
-);
 customParameters = (
 {
+name = typoAscender;
+value = 860;
+},
+{
+name = typoDescender;
+value = -140;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 860;
+},
+{
+name = hheaDescender;
+value = -140;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = winAscent;
-value = 936;
+value = 794;
 },
 {
 name = winDescent;
-value = 309;
+value = 149;
 }
 );
 id = m01;
@@ -22273,9 +22315,6 @@ width = 135;
 );
 instances = (
 {
-axesValues = (
-100
-);
 instanceInterpolations = {
 m01 = 1;
 };
@@ -22884,6 +22923,41 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+key = designerURL;
+value = "https://alphartype.com/";
+},
+{
+key = manufacturerURL;
+value = "https://alphartype.com/";
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/duartp/gloock)";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Delicious Handrawn is a trademark of Agung Rohmat.";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Agung Rohmat";
+}
+);
 }
 );
 unitsPerEm = 1000;
