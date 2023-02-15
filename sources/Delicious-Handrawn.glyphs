@@ -1,5 +1,5 @@
 {
-.appVersion = "3148";
+.appVersion = "3151";
 .formatVersion = 3;
 customParameters = (
 {
@@ -22941,7 +22941,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/duartp/gloock)";
+value = "Copyright 2022 The Delicious Handrawn Project Authors (https://github.com/alphArtype/Delicious-Handrawn)";
 }
 );
 },
@@ -22966,5 +22966,5 @@ value = "Agung Rohmat";
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
